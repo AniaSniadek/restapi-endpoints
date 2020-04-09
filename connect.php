@@ -2,10 +2,10 @@
 
 class Database
 {
-    private $host = "";
-    private $db_name = "";
-    private $username = "";
-    private $password = "";
+    private $host = ""; //your host
+    private $db_name = ""; //your database name
+    private $username = ""; //your username
+    private $password = ""; //your password
     public $conn;
 
     public function getConnection()

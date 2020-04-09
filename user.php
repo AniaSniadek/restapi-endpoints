@@ -24,4 +24,21 @@ class User
 
         return $stmt;
     }
+
+    function readOne()
+    {
+        $query = "SELECT id, name, email, password FROM " . $this->table_name . "
+                  WHERE id = ?
+                  LIMIT 0,1";
+
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(1, $this->id);
+        $stmt->execute();
+
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        $this->id = $row['id'];
+        $this->name = $row['name'];
+        $this->email = $row['email'];
+        $this->password = $row['password'];
+    }
 }

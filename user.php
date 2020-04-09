@@ -41,4 +41,18 @@ class User
         $this->email = $row['email'];
         $this->password = $row['password'];
     }
+
+    function delete()
+    {
+        $query = "DELETE FROM " . $this->table_name . " WHERE id = ?";
+
+        $stmt = $this->conn->prepare($query);
+        $this->id = htmlspecialchars(strip_tags($this->id));
+        $stmt->bindParam(1, $this->id);
+
+        if ($stmt->execute())
+            return true;
+
+        return false;
+    }
 }

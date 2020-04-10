@@ -2,7 +2,7 @@
 This is some useful endpoints written in PHP.
 ##
 This example is based on user. It contains id, username, email and password.
-<br/>
+<br/><br/>
 Endpoints:
 * Read - reading all user data from the database
 * Read one - reading one user's data from the database

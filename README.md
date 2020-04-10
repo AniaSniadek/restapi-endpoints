@@ -1,8 +1,15 @@
 # REST API Endpoints
 This is some useful endpoints written in PHP.
-<br/>
+##
 This example is based on user. It contains id, username, email and password.
-In each file there is a short comment with a description of endpoint.
+<br/>
+Endpoints:
+* Read - reading all user data from the database
+* Read one - reading one user's data from the database
+* Create - creating a new user and adding him to the database
+* Delete - removing a user from the database by providing his id
+* Update - editing a user who is in the database 
+* Login - logging in user and sends its data from the database
 
 ## Getting Started
 

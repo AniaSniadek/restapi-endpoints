@@ -32,7 +32,7 @@ if (
     } else {
         http_response_code(503);
         echo json_encode(array(
-            "message" => "Error! Can not add user"
+            "message" => "Error! Cannot add user"
         ));
     }
 } else {

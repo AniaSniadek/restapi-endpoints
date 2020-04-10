@@ -24,7 +24,7 @@ if (!empty($data->id)) {
         echo json_encode(array("message" => "The user has been deleted"));
     } else {
         http_response_code(503);
-        echo json_encode(array("message" => "Can not delete the user"));
+        echo json_encode(array("message" => "Cannot delete the user"));
     }
 } else {
     http_response_code(400);

@@ -1,3 +1,4 @@
+<!-- Logging in user and sends its data from the database -->
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");

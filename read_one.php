@@ -1,3 +1,4 @@
+<!-- Reading one user's data from the database -->
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: access");

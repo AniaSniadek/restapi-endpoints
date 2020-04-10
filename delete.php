@@ -1,3 +1,4 @@
+<!-- Removing a user from the database by providing his id -->
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");

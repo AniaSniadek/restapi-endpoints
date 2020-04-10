@@ -1,3 +1,4 @@
+<!-- The user class contains all the functions needed for endpoints -->
 <?php
 
 class User

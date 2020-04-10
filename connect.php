@@ -1,3 +1,4 @@
+<!-- Connecting to the database -->
 <?php
 
 class Database
